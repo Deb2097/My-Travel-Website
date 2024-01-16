@@ -6,7 +6,7 @@
 .sec1-head {
     /* padding-left: 5%;
     padding-right: 10%; */
-    background-color: rgba(224, 218, 183, 0.747);
+    background-color: rgb(130, 221, 233);
     display: flex;
     padding-top: 20px;
     padding-bottom: 18px;
@@ -116,9 +116,154 @@ header li {
     background-color: var(--primary-color);
     color: #FFF;
 }
+/* ---------working with sec2----------------------------------------------------------------------- */
+.sec2{
+    display: grid;
+    grid-template-columns: repeat(2,200fr);
+    padding-top: 30px;
+}
+.first-sec2{
+    padding-left: 50px;
+}
+.second-sec2{
+    padding-left: 50px;
+}
+.sec2-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.para1-sec2{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.lis-sec2{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.para2-sec2{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.sec2-bttn{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#sec2-button{
+    width: 174px;
+    height: 52px;
+    background-color: var(--primary-color);
+    border-radius: 8%;
+}
+
+ /* ---------working with sec3----------------------------------------------------------------------- */
+.sec3-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+
+    font-weight: 800;
+    margin-bottom: 0;
+
+}
+.sec3-para{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.sec3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ /* ---------working with sec4----------------------------------------------------------------------- */
+.sec4{
+    padding-left: 90px;
+}
+.sec4-img{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#wide1{
+    height: 285px;
+    width: 284px;
+}
+.text{
+    position: absolute;
+
+}
+ /* ---------working with sec5----------------------------------------------------------------------- */
+.sec5>h3{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 0;
+}
+.sec5>p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 500px;
+padding-top: 10px;
+    margin: 0 auto;
+}
+.sec5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+ /* ---------working with sec6----------------------------------------------------------------------- */
+
+
+
+
+
 
 
 @media screen and (max-width:600px){
+
+ /* ---------working with sec4----------------------------------------------------------------------- */
+ .sec2{
+    display: grid;
+    grid-template-columns: repeat(1,200fr);
+ }
+ .first-sec2{
+    padding-bottom: 20px;
+ }
+  /* ---------working with sec2----------------------------------------------------------------------- */
     .title{
         width: 120px;
         height: 27px;
