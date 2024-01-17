@@ -1,8 +1,8 @@
-
-:root{
-    --primary-color:  #FF5400;
+:root {
+    --primary-color: #FF5400;
 
 }
+
 .sec1-head {
     /* padding-left: 5%;
     padding-right: 10%; */
@@ -104,7 +104,8 @@ header li {
     width: 150px;
     height: 45px;
     border-radius: 0;
-    color: rgba(19, 19, 24, 0.50);;
+    color: rgba(19, 19, 24, 0.50);
+    ;
 }
 
 .sec2-head {
@@ -112,56 +113,68 @@ header li {
     background-repeat: no-repeat;
     background-position: 55px
 }
-#orange{
+
+#orange {
     background-color: var(--primary-color);
     color: #FFF;
 }
+
 /* ---------working with sec2----------------------------------------------------------------------- */
-.sec2{
+.sec2 {
     display: grid;
-    grid-template-columns: repeat(2,200fr);
+    grid-template-columns: repeat(2, 200fr);
     padding-top: 30px;
 }
-.first-sec2{
+
+.first-sec2 {
     padding-left: 50px;
 }
-.second-sec2{
+
+.second-sec2 {
     padding-left: 50px;
 }
-.sec2-title{
+
+.sec2-title {
     color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.para1-sec2{
+
+.para1-sec2 {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.lis-sec2{
+
+.lis-sec2 {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.para2-sec2{
+
+.para2-sec2 {
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.sec2-bttn{
+
+.sec2-bttn {
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -170,15 +183,16 @@ line-height: normal;
     font-weight: 800;
     line-height: normal;
 }
-#sec2-button{
+
+#sec2-button {
     width: 174px;
     height: 52px;
     background-color: var(--primary-color);
     border-radius: 8%;
 }
 
- /* ---------working with sec3----------------------------------------------------------------------- */
-.sec3-title{
+/* ---------working with sec3----------------------------------------------------------------------- */
+.sec3-title {
     color: #131318;
     text-align: center;
     font-family: Mulish;
@@ -188,89 +202,132 @@ line-height: normal;
     margin-bottom: 0;
 
 }
-.sec3-para{
+
+.sec3-para {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
 
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.sec3{
+
+.sec3 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
- /* ---------working with sec4----------------------------------------------------------------------- */
-.sec4{
-    padding-left: 90px;
-}
-.sec4-img{
-    padding-right: 10px;
+
+/* ---------working with sec4----------------------------------------------------------------------- */
+.sec4 .first-sec4,
+.second-sec4,
+.third-sec4 {
+    display: flex;
+    gap: 10px;
     padding-bottom: 10px;
 }
-#wide1{
-    height: 285px;
-    width: 284px;
-}
-.text{
-    position: absolute;
+
+.sec4 .text-sec4 {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    right: 300px;
+    top: 100px;
+    width: 0;
+    height: 0;
 
 }
- /* ---------working with sec5----------------------------------------------------------------------- */
-.sec5>h3{
-    color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-bottom: 0;
+
+.sec4 img {
+    height: 250px;
 }
-.sec5>p{
+
+.first-sec4 img {
+    width: 500px;
+}
+
+.third-sec4 img {
+    width: 500px;
+}
+
+.sec4 {
+    padding-left: 150px;
+}
+
+#kashmir {
+    padding-left: 95px;
+}
+
+/* ---------working with sec5----------------------------------------------------------------------- */
+.sec5>h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.sec5>p {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-width: 500px;
-padding-top: 10px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 500px;
+    padding-top: 10px;
     margin: 0 auto;
 }
-.sec5{
+
+.sec5 {
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
- /* ---------working with sec6----------------------------------------------------------------------- */
-.sec6-and-7{
+
+/* ---------working with sec6----------------------------------------------------------------------- */
+.sec6-and-7 {
     padding-top: 60px;
     padding-left: 90px;
     padding-bottom: 30px;
 }
- .para-sec6{
+
+.para-sec6 {
     width: 30em;
 }
-.logos-sec6{
+
+.logos-sec6 {
     width: 64px;
-height: 64px;
+    height: 64px;
 
 }
-.first-s6{
+
+.first-s6 {
     display: flex;
 }
-.part{
+
+.part {
     align-items: center;
 }
-.part1,.part2,.part3{
-background-color: rgba(251, 181, 99, 0.2);
-margin: 30px;
-border-radius: 16px;
+
+.part1,
+.part2,
+.part3 {
+    background-color: rgba(251, 181, 99, 0.2);
+    margin: 30px;
+    border-radius: 16px;
 }
-.part3{
+
+.part3 {
     display: grid;
     place-items: left;
     margin-left: 340px;
@@ -279,77 +336,640 @@ border-radius: 16px;
     padding-top: 20px;
     background-color: rgba(233, 68, 68, 0.2);
 }
-.part1,.part2{
+
+.part1,
+.part2 {
     padding: 20px;
 }
-.part2{
+
+.part2 {
     background-color: rgba(41, 206, 246, 0.2);
 }
 
- /* ---------working with sec8----------------------------------------------------------------------- */
-.sec8>h3{
+/* ---------working with sec8----------------------------------------------------------------------- */
+.sec8>h3 {
     color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-bottom: 0;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0;
 }
-.sec8>p{
+
+.sec8>p {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-width: 500px;
-padding-top: 10px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 500px;
+    padding-top: 10px;
     margin: 0 auto;
 }
-.sec8{
+
+.sec8 {
     padding-bottom: 30px;
 }
-/* -------------------------------------------------------------------------------------------------------------- */
-@media screen and (max-width:600px){
 
- /* ---------working with sec6----------------------------------------------------------------------- */
- .first-s6{
-    display: inline;
+/* ---------working with sec9----------------------------------------------------------------------- */
+/* .sec9 ul{
+    display: flex;
 }
-.part2,.part3{
+.sec9 li{
     margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    padding-right: 30px;
+}
+.sec9 p{
+    width: 300px;
+}
+.sec9 button{
+    width: 140px;
+    height: 45px;
+
+}
+.sec9{
+ background-image: url("sec9/Group\ 39.png");
+/* background-repeat: no-repeat;
+padding-bottom: 280px; */
+/* }
+.sec9-block{
+    /* padding-left: 700px;
+    padding-top: 100px; */
+/* padding-left: 500px;
+    padding-top: 52px;
+    padding-bottom: 45px;
+    background-color: rgb(212, 40, 40);
+    margin-left: 500px;
+    margin-right: 600px;
+    margin-top: 150px;
+    padding-top: 100px; */
+
+/* ---------working with sec13----------------------------------------------------------------------- */
+.sec13 {
+    margin: 0;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
- /* ---------working with sec4----------------------------------------------------------------------- */
- .sec2{
-    display: grid;
-    grid-template-columns: repeat(1,200fr);
- }
- .first-sec2{
-    padding-bottom: 20px;
- }
-  /* ---------working with sec2----------------------------------------------------------------------- */
-    .title{
+.first-sec13 {
+    padding-left: 50px;
+    margin-right: 30px;
+    margin-left: 55px;
+    margin-bottom: 105px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 84, 0, 1);
+}
+
+.first-sec13 input {
+    margin-bottom: 20px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.first-sec13 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-bottom: 80px;
+    width: 270px;
+}
+
+.first-sec13 h3 {
+    padding-top: 10px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+.second-sec13 p,
+h2 {
+    margin: 0;
+}
+
+.second-sec13 p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.second-sec13 h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.second-sec13 img {
+    width: 650px;
+    height: 394px;
+    padding-left: 10px;
+}
+
+.second-sec13 div h3,
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.second-sec13 div {
+    position: relative;
+    text-align: center;
+    background-color: #FF5400;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    rotate: -30deg;
+    left: 190px;
+    bottom: 150px;
+}
+
+/* ---------working with footer----------------------------------------------------------------------- */
+
+footer {
+    width: 1240px;
+    height: 300px;
+    text-align: center;
+
+    margin: 0 auto;
+    text-align: center
+}
+
+.title-footer {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 450px;
+
+}
+
+.title-footer span {
+    color: var(--primary-color);
+}
+
+.title-footer p {
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title-footer img {
+    padding-right: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.text {
+    width: 700px;
+    padding-left: 250px;
+}
+
+.social-foot {
+    padding-top: 60px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+    padding-bottom: 25px;
+}
+
+.rights-foot {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+footer hr {
+    size: 0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:600px) {
+
+    /* ---------working with footer----------------------------------------------------------------------- */
+    .title-footer {
+        display: flex;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 170px;
+
+    }
+
+    .text {
+        width: 500px;
+        padding-left: 24px;
+    }
+
+    /* ---------working with sec13----------------------------------------------------------------------- */
+    .sec13 {
+        margin: 0;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ---------working with sec6----------------------------------------------------------------------- */
+    .first-s6 {
+        display: inline;
+    }
+
+    .part2,
+    .part3 {
+        margin-left: 0;
+    }
+
+    /* ---------working with sec4----------------------------------------------------------------------- */
+    .sec2 {
+        display: grid;
+        grid-template-columns: repeat(1, 200fr);
+    }
+
+    .first-sec2 {
+        padding-bottom: 20px;
+    }
+
+    /* ---------working with sec2----------------------------------------------------------------------- */
+    .title {
         width: 120px;
         height: 27px;
     }
-    .right{
+
+    .right {
         visibility: hidden;
         background-image: url("sec1/Frame.png");
         background-size: 300px 300px;
     }
-    .others-head{
+
+    .others-head {
         display: inline;
         background-color: rgba(255, 255, 255, 0.30);
         justify-content: center;
         margin-left: 200px;
         margin-right: 200px;
     }
+
     .sec2-head {
         padding-left: 0;
         background-size: 600px 800px;
     }
+
+    /* ----------------------------------------------------------------------------sec4 */
+    .sec4 .first-sec4,
+    .second-sec4,
+    .third-sec4 {
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    .sec4 .text-sec4 {
+        /* position:relative;
+        color: #ff0404;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+        font-weight: 800;
+        right: 10px;
+        /* width: 0;
+        height: 0; */ */
+
+    }
+
+    .sec4 img {
+        height: 250px;
+        padding-bottom: 10px;
+    }
+
+    .first-sec4 img {
+        width: 500px;
+    }
+
+    .third-sec4 img {
+        width: 500px;
+    }
+
+    .sec4 {
+        padding-left: 44px;
+    }
+
+    #kashmir {
+        padding-left: 95px;
+    }
+    /* ---------------------------------------sec6 */
+    .sec6-and-7 {
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .para-sec6 {
+        width: 30em;
+    }
+    
+    .logos-sec6 {
+        width: 64px;
+        height: 64px;
+    
+    }
+    
+    
+    .part {
+        align-items: center;
+    }
+    
+    .part1,
+    .part2,
+    .part3 {
+        background-color: rgba(251, 181, 99, 0.2);
+        margin: 30px;
+        border-radius: 16px;
+    }
+    
+    .part3 {
+        display: grid;
+        place-items: left;
+        margin-right: 30px;
+        padding-left: 0;
+        padding-top: 20px;
+        background-color: rgba(233, 68, 68, 0.2);
+    }
+    
+    .part1,
+    .part2 {
+        padding: 20px;
+    }
+    
+    .part2 {
+        background-color: rgba(41, 206, 246, 0.2);
+    }
+    /* ------------------------------------------------------------------------------sec8 */
+    .sec8>h3 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    
+    .sec8>p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        width: 500px;
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+    
+    .sec8 {
+        padding-bottom: 30px;
+    }
+    /* -------------------------------------------------------sec2 */
+    .sec2 {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        padding-top: 30px;
+    }
+    
+    .first-sec2 {
+        padding-left: 0;
+    }
+    
+    .second-sec2 {
+        padding-left: 0px;
+    }
+    
+    .sec2-title {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    .para1-sec2 {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+    }
+    
+    .lis-sec2 {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+    }
+    
+    .para2-sec2 {
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+    }
+    
+    .sec2-bttn {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    #sec2-button {
+        width: 174px;
+        height: 52px;
+        background-color: var(--primary-color);
+        border-radius: 8%;
+    }
+    .second-sec2 img{
+        width: 585px;
+    }
+    /* ----------------------------------------------sec13 */
+    
+    
+    .first-sec13 {
+        padding-left: 0;
+        margin-right: 30px;
+        margin-left: 55px;
+        margin-bottom: 105px;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 84, 0, 1);
+    }
+    
+    .first-sec13 input {
+        margin-bottom: 20px;
+        width: 393px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        color: rgb(19, 19, 24);
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    ::placeholder {
+        color: #000000;
+    }
+    
+    .first-sec13 p {
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        padding-bottom: 80px;
+        width: 270px;
+    }
+    
+    .first-sec13 h3 {
+        padding-top: 10px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 1000;
+        line-height: normal;
+    }
+    
+    .second-sec13 p,
+    h2 {
+        margin: 0;
+    }
+    
+    .second-sec13 p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 24px;
+        font-weight: 400;
+    
+    }
+    
+    .second-sec13 h3 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+    
+    }
+    
+    .second-sec13 img {
+        width: 650px;
+        height: 394px;
+        padding-left: 10px;
+    }
+    
+    .second-sec13 div h3,
+    p {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .second-sec13 div {
+        position: relative;
+        text-align: center;
+        background-color: #FF5400;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 6px;
+        rotate: -30deg;
+        left: 190px;
+        bottom: 150px;
+    }
+    .sec13 {
+        margin: 0;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .first-sec13{
+        padding-left: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .first-sec13 h3{
+        padding-left: 230px;
+    }
+    .first-sec13 p{
+        padding-left: 150px;
+    }
+    .first-sec13 input{
+        margin-left: 80px;
+    }
+    .second-sec13 img{
+       width:500px ;
+    }
+    /* ------------------------------------------footer */
+    .social-foot {
+        margin-right: 670px;
+    }
+    .rights-foot{
+        margin-right: 670px;
+    }
+
 }
