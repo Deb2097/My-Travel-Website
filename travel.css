@@ -376,42 +376,122 @@ header li {
     padding-bottom: 30px;
 }
 
-/* ---------working with sec9----------------------------------------------------------------------- */
-/* .sec9 ul{
+/* ------------------------------------Extra----------------------------------- */
+.extra {
+    padding-left: 90px;
+    text-align: left;
     display: flex;
+    padding-bottom: 70px;
+    
 }
-.sec9 li{
-    margin-left: 0;
-    padding-left: 0;
+.extra ul{
+    display: flex;
+    margin-right: 50px;
+
+}
+.extra li{
     list-style: none;
-    padding-right: 30px;
+    padding-right: 5px;
+    font-size: 10px;
+    width: 100px;
 }
-.sec9 p{
-    width: 300px;
+.front {
+    position: relative;
+    text-align: left;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    right: 600px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+    padding-bottom: 5px;
 }
-.sec9 button{
-    width: 140px;
-    height: 45px;
 
+.front h2 {
+    margin-bottom: 0;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.sec9{
- background-image: url("sec9/Group\ 39.png");
-/* background-repeat: no-repeat;
-padding-bottom: 280px; */
-/* }
-.sec9-block{
-    /* padding-left: 700px;
-    padding-top: 100px; */
-/* padding-left: 500px;
-    padding-top: 52px;
-    padding-bottom: 45px;
-    background-color: rgb(212, 40, 40);
-    margin-left: 500px;
-    margin-right: 600px;
-    margin-top: 150px;
-    padding-top: 100px; */
 
-/* ---------working with sec13----------------------------------------------------------------------- */
+.front h5 {
+    width: 20em;
+}
+
+.front button {
+    width: 110px;
+    height: 40px;
+    background-color: #FF5400;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.front h3 {
+    color: var(--primary-color);
+}
+.back{
+    height: 400px;
+}
+.front img{
+    width: 20px;
+    height: 20px;
+}
+.front-mid{
+    position: relative;
+    text-align: left;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    right: 1100px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 800px;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+.front-mid img{
+    width: 20px;
+    height: 20px;
+}
+.front-mid h3 {
+    color: var(--primary-color);
+}
+.front-mid button {
+    width: 110px;
+    height: 40px;
+    background-color: #FF5400;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
 .sec13 {
     margin: 0;
     padding-top: 50px;
@@ -668,8 +748,8 @@ footer hr {
         font-weight: 800;
         right: 10px;
         /* width: 0;
-        height: 0; */ */
-
+        height: 0; */
+        */
     }
 
     .sec4 img {
@@ -692,28 +772,29 @@ footer hr {
     #kashmir {
         padding-left: 95px;
     }
+
     /* ---------------------------------------sec6 */
     .sec6-and-7 {
         padding-top: 60px;
         padding-left: 20px;
         padding-bottom: 30px;
     }
-    
+
     .para-sec6 {
         width: 30em;
     }
-    
+
     .logos-sec6 {
         width: 64px;
         height: 64px;
-    
+
     }
-    
-    
+
+
     .part {
         align-items: center;
     }
-    
+
     .part1,
     .part2,
     .part3 {
@@ -721,7 +802,7 @@ footer hr {
         margin: 30px;
         border-radius: 16px;
     }
-    
+
     .part3 {
         display: grid;
         place-items: left;
@@ -730,15 +811,16 @@ footer hr {
         padding-top: 20px;
         background-color: rgba(233, 68, 68, 0.2);
     }
-    
+
     .part1,
     .part2 {
         padding: 20px;
     }
-    
+
     .part2 {
         background-color: rgba(41, 206, 246, 0.2);
     }
+
     /* ------------------------------------------------------------------------------sec8 */
     .sec8>h3 {
         color: #131318;
@@ -750,7 +832,7 @@ footer hr {
         line-height: normal;
         margin-bottom: 0;
     }
-    
+
     .sec8>p {
         color: rgba(19, 19, 24, 0.70);
         text-align: center;
@@ -764,25 +846,26 @@ footer hr {
         padding-top: 10px;
         margin: 0 auto;
     }
-    
+
     .sec8 {
         padding-bottom: 30px;
     }
+
     /* -------------------------------------------------------sec2 */
     .sec2 {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
         padding-top: 30px;
     }
-    
+
     .first-sec2 {
         padding-left: 0;
     }
-    
+
     .second-sec2 {
         padding-left: 0px;
     }
-    
+
     .sec2-title {
         color: #131318;
         text-align: center;
@@ -792,7 +875,7 @@ footer hr {
         font-weight: 800;
         line-height: normal;
     }
-    
+
     .para1-sec2 {
         color: rgba(19, 19, 24, 0.70);
         font-family: Mulish;
@@ -802,7 +885,7 @@ footer hr {
         line-height: 26px;
         /* 162.5% */
     }
-    
+
     .lis-sec2 {
         color: rgba(19, 19, 24, 0.70);
         font-family: Mulish;
@@ -812,7 +895,7 @@ footer hr {
         line-height: 26px;
         /* 162.5% */
     }
-    
+
     .para2-sec2 {
         color: #5A5A5D;
         font-family: Mulish;
@@ -822,7 +905,7 @@ footer hr {
         line-height: 26px;
         /* 162.5% */
     }
-    
+
     .sec2-bttn {
         color: #FFF;
         text-align: center;
@@ -832,19 +915,21 @@ footer hr {
         font-weight: 800;
         line-height: normal;
     }
-    
+
     #sec2-button {
         width: 174px;
         height: 52px;
         background-color: var(--primary-color);
         border-radius: 8%;
     }
-    .second-sec2 img{
+
+    .second-sec2 img {
         width: 585px;
     }
+
     /* ----------------------------------------------sec13 */
-    
-    
+
+
     .first-sec13 {
         padding-left: 0;
         margin-right: 30px;
@@ -853,7 +938,7 @@ footer hr {
         border-radius: 20px;
         border: 2px solid rgba(255, 84, 0, 1);
     }
-    
+
     .first-sec13 input {
         margin-bottom: 20px;
         width: 393px;
@@ -865,11 +950,11 @@ footer hr {
         font-size: 16px;
         font-weight: 400;
     }
-    
+
     ::placeholder {
         color: #000000;
     }
-    
+
     .first-sec13 p {
         color: #5A5A5D;
         font-family: Mulish;
@@ -881,7 +966,7 @@ footer hr {
         padding-bottom: 80px;
         width: 270px;
     }
-    
+
     .first-sec13 h3 {
         padding-top: 10px;
         color: #131318;
@@ -891,41 +976,41 @@ footer hr {
         font-weight: 1000;
         line-height: normal;
     }
-    
+
     .second-sec13 p,
     h2 {
         margin: 0;
     }
-    
+
     .second-sec13 p {
         color: #FFF;
         text-align: center;
         font-family: Mulish;
         font-size: 24px;
         font-weight: 400;
-    
+
     }
-    
+
     .second-sec13 h3 {
         color: #FFF;
         font-family: Mulish;
         font-size: 32px;
         font-weight: 800;
-    
+
     }
-    
+
     .second-sec13 img {
         width: 650px;
         height: 394px;
         padding-left: 10px;
     }
-    
+
     .second-sec13 div h3,
     p {
         text-align: center;
         margin: 0;
     }
-    
+
     .second-sec13 div {
         position: relative;
         text-align: center;
@@ -939,6 +1024,7 @@ footer hr {
         left: 190px;
         bottom: 150px;
     }
+
     .sec13 {
         margin: 0;
         padding-top: 50px;
@@ -947,28 +1033,35 @@ footer hr {
         padding-left: 0;
         margin-left: 0;
     }
-    .first-sec13{
+
+    .first-sec13 {
         padding-left: 0;
         margin-left: 5px;
         margin-right: 5px;
     }
-    .first-sec13 h3{
+
+    .first-sec13 h3 {
         padding-left: 230px;
     }
-    .first-sec13 p{
+
+    .first-sec13 p {
         padding-left: 150px;
     }
-    .first-sec13 input{
+
+    .first-sec13 input {
         margin-left: 80px;
     }
-    .second-sec13 img{
-       width:500px ;
+
+    .second-sec13 img {
+        width: 500px;
     }
+
     /* ------------------------------------------footer */
     .social-foot {
         margin-right: 670px;
     }
-    .rights-foot{
+
+    .rights-foot {
         margin-right: 670px;
     }
 
